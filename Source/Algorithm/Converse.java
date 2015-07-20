@@ -43,7 +43,7 @@ public class Converse {
 
 		
 		//[SETUP]
-		System.out.println("[Icarus v1.42 Copyright (C) 2014 - 2015 Kisora Thomas]");
+		System.out.println("[Icarus v1.42 ]");
 		props.setProperty("annotators" , "tokenize, ssplit, pos, lemma, parse, sentiment, ner");
 		
 		StanfordCoreNLP pipeline = new StanfordCoreNLP(props);
